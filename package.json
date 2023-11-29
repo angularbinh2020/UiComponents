@@ -1,0 +1,41 @@
+{
+  "name": "@angularbinh2020/ui-base-v1",
+  "version": "1.0.0",
+  "description": "https://www.airplane.dev/blog/how-to-build-a-react-component-library",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "vite build && tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "angularbinh2020",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.6.0",
+    "@storybook/addon-interactions": "7.6.0",
+    "@storybook/addon-links": "7.6.0",
+    "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/blocks": "7.6.0",
+    "@storybook/react": "7.6.0",
+    "@storybook/react-vite": "7.6.0",
+    "@storybook/test": "7.6.0",
+    "@types/react": "^18.2.39",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.3"
+  },
+  "publishConfig": {
+    "@angularbinh2020:registry": "https://npm.pkg.github.com"
+  }
+}
